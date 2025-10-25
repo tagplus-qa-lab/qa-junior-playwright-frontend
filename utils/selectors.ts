@@ -5,7 +5,7 @@ export const LoginSelectors = {
   errorMessage: '[data-test="error"]',
 };
 
-export const ProductSelectors = {
-  addToCartSauceLabsBikeLight: '[data-test="add-to-cart-sauce-labs-bike-light"]',
+export const Cart = {
+  shoppingCartBadge: '[data-test="shopping-cart-badge"]',
 };
 
