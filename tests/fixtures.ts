@@ -1,8 +1,12 @@
 import { test as base } from "@playwright/test";
 import { LoginPage } from "../src/pages/LoginPage";
+import { InventoryPage } from "../src/pages/InventoryPage";
+import { CartPage } from "../src/pages/CartPage";
 
 type MyFixtures = {
   loginPage: (username: string, password: string) => Promise<LoginPage>;
+  inventoryPage: InventoryPage;
+  cartPage: CartPage;
 };
 
 export const test = base.extend<MyFixtures>({
@@ -14,6 +18,16 @@ export const test = base.extend<MyFixtures>({
       return loginPage;
     });
   },
+
+  inventoryPage: async ({ page }, use) => {
+    const inventoryPage = new InventoryPage(page);
+    await use(inventoryPage);
+  },
+
+  cartPage: async ({ page }, use) => {
+    const cartPage = new CartPage(page);
+    await use(cartPage);
+  }
 });
 
 export const expect = test.expect;
