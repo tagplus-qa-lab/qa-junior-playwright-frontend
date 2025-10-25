@@ -26,6 +26,9 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     headless: false,
+    launchOptions: {
+      slowMo: 300
+    },
     video: 'on',
     screenshot: 'only-on-failure',
     /* Base URL to use in actions like `await page.goto('')`. */

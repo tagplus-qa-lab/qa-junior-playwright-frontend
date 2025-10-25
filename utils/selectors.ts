@@ -7,5 +7,6 @@ export const LoginSelectors = {
 
 export const Cart = {
   shoppingCartBadge: '[data-test="shopping-cart-badge"]',
+  inventoryItem: '[data-test="inventory-item"]'
 };
 

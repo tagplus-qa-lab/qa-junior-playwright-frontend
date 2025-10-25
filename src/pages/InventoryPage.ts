@@ -11,11 +11,18 @@ export class InventoryPage extends BasePage {
     this.cartBadge = page.locator(Cart.shoppingCartBadge);
   }
 
+  async gotoInventoryPage() {
+    await this.goto('/inventory.html'); 
+  }
+
   async addRandomProducts(buttonAddText: string, quantity = 3) {
     const addToCartButtons = this.page.locator(
       `button:has-text("${buttonAddText}")`
     );
-    const count = await addToCartButtons.count();
+    
+    let count = await addToCartButtons.count();
+
+    count = Math.min(count, 4); // Extrair apenas os visiveis
 
     const clickCount = Math.min(quantity, count);
 
