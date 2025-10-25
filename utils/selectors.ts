@@ -7,6 +7,15 @@ export const LoginSelectors = {
 
 export const Cart = {
   shoppingCartBadge: '[data-test="shopping-cart-badge"]',
-  inventoryItem: '[data-test="inventory-item"]'
+  inventoryItem: '[data-test="inventory-item"]',
+  checkout: '[data-test="checkout"]'
 };
+
+export const Purchase = {
+  firstName: '[data-test="firstName"]',
+  lastName: '[data-test="lastName"]',
+  postalCode: '[data-test="postalCode"]',
+  continue: '[data-test="continue"]',
+  finish: '[data-test="finish"]'
+}
 
