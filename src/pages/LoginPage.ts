@@ -5,12 +5,14 @@ export class LoginPage extends BasePage {
   readonly username: Locator;
   readonly password: Locator;
   readonly buttonLogin: Locator;
+  readonly errorMessage: Locator;
 
   constructor(page: Page) {
     super(page);
     this.username = page.locator('[data-test="username"]');
     this.password = page.locator('[data-test="password"]');
     this.buttonLogin = page.locator('[data-test="login-button"]');
+    this.errorMessage = page.locator('[data-test="error"]');
   }
 
   async gotoLoginPage() {
