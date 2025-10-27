@@ -1,10 +1,13 @@
 # Documentação do Projeto de Testes Automatizados para Saucedemo
+![alt text](image.png)
+> Imagem capturada do relatório do Playwright
 
-📑 Índice
+Índice
 1. [Desenvolvedora](#desenvolvedora)
 2. [Tecnologias utilizadas](#1-tecnologias-utilizadas)
 3. [Configuração para rodar o projeto](#2-configuração-para-rodar-o-projeto)
-4. [Agradecimentos](#agradecimentos)
+4. [Outras documentações](#7-outras-documentações)
+5. [Agradecimentos](#agradecimentos)
 
 ## Desenvolvedora
 
@@ -56,6 +59,11 @@ npx playwright install
 5. Executar todos os testes:  
 ```bash
 npm test
+```
+
+6. Ver relatório de todos os testes:  
+```bash
+npx playwright show-report
 ```
 
 ## 7. Outras Documentações
