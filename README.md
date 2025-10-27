@@ -76,6 +76,43 @@ No projeto, algumas documentações adicionais estão disponíveis para referên
 
 ---
 
+## 8. Versionamento, Code Review e Padronização Git
+
+- Controle de versão: Git + GitHub  
+- Versão inicial: 1.0.0  
+  - Todos requisitos cumpridos e documentados
+- Todas as alterações foram commitadas e revisadas via pull request para manter a consistência do código, além de usar o Kanban para fins de organização de tarefas.
+
+### Padrões de Desenvolvimento
+
+#### 📂 Estrutura de Branches
+
+Adotei o seguinte padrão:
+
+- **frontend-[id-da-tarefa]/**
+
+### ✅ Commits Semânticos
+
+Utilizei o padrão **Conventional Commits** para manter o histórico limpo e informativo:
+
+📌 **Nota:** Escrevo os verbos no **imperativo**. Isso descreve o que o commit faz, como uma instrução ou comando, por exemplo: _"Adiciona", "Corrige", "Ajusta"_.
+
+| Tipo       | Descrição                                            | Exemplo de Mensagem                            |
+| ---------- | ---------------------------------------------------- | ---------------------------------------------- |
+| `feat`     | Adição de nova funcionalidade                        | `feat(frontend-12): adiciona mock do usuário`            |
+| `fix`      | Correção de bugs                                     | `fix(frontend-14): corrige erro de exibição dos filmes`            |
+| `docs`     | Atualização ou criação de documentação               | `docs(frontend-12): atualiza README com padrões`            |
+| `style`    | Alterações de formatação (sem impacto funcional)     | `style(frontend-19): ajusta espaçamento no Header`          |
+| `refactor` | Refatorações de código sem mudanças de comportamento | `refactor(frontend-11): simplifica lógica dos services`       |
+| `test`     | Adição ou atualização de testes                      | `test(frontend-29): adiciona testes para componente Header` |
+| `chore`    | Atualizações gerais (ex.: dependências, build)       | `chore(frontend-19): atualiza versão do React`       |
+| `perf`     | Melhorias de performance                             | `perf(frontend-19): otimiza carregamento de dados`          |
+| `revert`   | Reversão de um commit anterior                       | `revert(frontend-19): remove validação do titulo de filme`            |
+
+---
+
+---
+
 ## Agradecimentos
 
 Gostaria de agradecer a **TagPlus** pela oportunidade de participar deste processo seletivo.  
