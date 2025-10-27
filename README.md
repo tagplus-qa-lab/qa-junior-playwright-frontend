@@ -1,6 +1,12 @@
 # Documentação do Projeto de Testes Automatizados para Saucedemo
 
-## 👥 Desenvolvedora
+📑 Índice
+1. [Desenvolvedora](#desenvolvedora)
+2. [Tecnologias utilizadas](#1-tecnologias-utilizadas)
+3. [Configuração para rodar o projeto](#2-configuração-para-rodar-o-projeto)
+4. [Agradecimentos](#agradecimentos)
+
+## Desenvolvedora
 
 <table>
   <tr>
@@ -52,9 +58,17 @@ npx playwright install
 npm test
 ```
 
+## 7. Outras Documentações
+
+No projeto, algumas documentações adicionais estão disponíveis para referência e melhor organização dos testes e funcionalidades.  
+
+### Testes E2E
+
+- Toda a documentação referente aos **testes automatizados (E2E)** está localizada na pasta `/docs`.
+
 ---
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 Gostaria de agradecer a **TagPlus** pela oportunidade de participar deste processo seletivo.  
 Agradeço também a todos que irão avaliar o projeto, revisar código e fornecer feedbacks valiosos.
