@@ -10,7 +10,17 @@
 
 ---
 
-## 1. Configuração para rodar o projeto
+## 1. Tecnologias utilizadas
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=.env&logoColor=black)  
+![AJV](https://img.shields.io/badge/AJV-22B573?style=for-the-badge&logo=json&logoColor=white)
+
+---
+
+## 2. Configuração para rodar o projeto
 
 > Antes de iniciar, **certifique-se de ter o Node instalado**.  
 
