@@ -1,13 +1,12 @@
 # Documentação do Projeto de Testes Automatizados para Saucedemo
-![alt text](image.png)
-> Imagem capturada do relatório do Playwright
 
 Índice
 1. [Desenvolvedora](#desenvolvedora)
 2. [Tecnologias utilizadas](#1-tecnologias-utilizadas)
 3. [Configuração para rodar o projeto](#2-configuração-para-rodar-o-projeto)
-4. [Outras documentações](#7-outras-documentações)
-5. [Agradecimentos](#agradecimentos)
+4. [Outras documentações](#3-outras-documentações)
+5. [Versionamento, code review e padronização](#4-versionamento-code-review-e-padronização-git)
+6. [Agradecimentos](#agradecimentos)
 
 ## Desenvolvedora
 
@@ -66,7 +65,9 @@ npm test
 npx playwright show-report
 ```
 
-## 7. Outras Documentações
+---
+
+## 3. Outras Documentações
 
 No projeto, algumas documentações adicionais estão disponíveis para referência e melhor organização dos testes e funcionalidades.  
 
@@ -76,7 +77,7 @@ No projeto, algumas documentações adicionais estão disponíveis para referên
 
 ---
 
-## 8. Versionamento, Code Review e Padronização Git
+## 4. Versionamento, Code Review e Padronização Git
 
 - Controle de versão: Git + GitHub  
 - Versão inicial: 1.0.0  
@@ -100,16 +101,13 @@ Utilizei o padrão **Conventional Commits** para manter o histórico limpo e inf
 | Tipo       | Descrição                                            | Exemplo de Mensagem                            |
 | ---------- | ---------------------------------------------------- | ---------------------------------------------- |
 | `feat`     | Adição de nova funcionalidade                        | `feat(frontend-12): adiciona mock do usuário`            |
-| `fix`      | Correção de bugs                                     | `fix(frontend-14): corrige erro de exibição dos filmes`            |
+| `fix`      | Correção de bugs                                     | `fix(frontend-14): corrige erro de exibição dos dados`            |
 | `docs`     | Atualização ou criação de documentação               | `docs(frontend-12): atualiza README com padrões`            |
-| `style`    | Alterações de formatação (sem impacto funcional)     | `style(frontend-19): ajusta espaçamento no Header`          |
-| `refactor` | Refatorações de código sem mudanças de comportamento | `refactor(frontend-11): simplifica lógica dos services`       |
+| `refactor` | Refatorações de código sem mudanças de comportamento | `refactor(frontend-11): simplifica lógica dos mocks`       |
 | `test`     | Adição ou atualização de testes                      | `test(frontend-29): adiciona testes para componente Header` |
-| `chore`    | Atualizações gerais (ex.: dependências, build)       | `chore(frontend-19): atualiza versão do React`       |
+| `chore`    | Atualizações gerais (ex.: dependências, build)       | `chore(frontend-19): atualiza versão do PLaywright`       |
 | `perf`     | Melhorias de performance                             | `perf(frontend-19): otimiza carregamento de dados`          |
-| `revert`   | Reversão de um commit anterior                       | `revert(frontend-19): remove validação do titulo de filme`            |
-
----
+| `revert`   | Reversão de um commit anterior                       | `revert(frontend-19): remove validação do nome de produto`            |
 
 ---
 
