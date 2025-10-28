@@ -1,4 +1,4 @@
-import { expect, test } from "../fixtures";
+import { expect, test } from "@tests/fixtures";
 
 test.describe("Login E2E", () => {
   test("TC-LOGIN-001: Login válido", async ({ loginPage }) => {
