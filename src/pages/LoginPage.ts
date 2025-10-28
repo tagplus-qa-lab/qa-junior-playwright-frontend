@@ -1,6 +1,6 @@
 import { Locator, Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
-import { LoginSelectors } from "../../utils/selectors";
+import { LoginSelectors } from "@utils/selectors";
 export class LoginPage extends BasePage {
   readonly username: Locator;
   readonly password: Locator;
