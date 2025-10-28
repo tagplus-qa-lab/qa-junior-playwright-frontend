@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
-import { getRandomIndexes } from "../../utils/auxiliaryFunctions";
-import { Cart } from "../../utils/selectors";
+import { getRandomIndexes } from "@utils/auxiliaryFunctions";
+import { Cart } from "@utils/selectors";
 
 export class InventoryPage extends BasePage {
   readonly cartBadge: Locator;

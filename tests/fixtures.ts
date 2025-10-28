@@ -1,7 +1,7 @@
 import { test as base } from "@playwright/test";
-import { LoginPage } from "../src/pages/LoginPage";
-import { InventoryPage } from "../src/pages/InventoryPage";
-import { CartPage } from "../src/pages/CartPage";
+import { LoginPage } from "@pages/LoginPage";
+import { InventoryPage } from "@pages/InventoryPage";
+import { CartPage } from "@pages/CartPage";
 
 type MyFixtures = {
   loginPage: (username: string, password: string) => Promise<LoginPage>;

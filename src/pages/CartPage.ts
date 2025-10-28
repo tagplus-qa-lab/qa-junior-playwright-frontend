@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
-import { Cart, Purchase } from "../../utils/selectors";
-import { getRandomIndexes } from "../../utils/auxiliaryFunctions";
+import { Cart, Purchase } from "@utils/selectors";
+import { getRandomIndexes } from "@utils/auxiliaryFunctions";
 
 export class CartPage extends BasePage {
   readonly listItem: Locator;

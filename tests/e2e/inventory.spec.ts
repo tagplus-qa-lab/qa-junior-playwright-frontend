@@ -1,4 +1,4 @@
-import { test } from "../fixtures";
+import { test } from "@tests/fixtures";
 
 test.describe("Inventário E2E", () => {
   test("TC-INVENTORY-001: Adição de Produtos no Carrinho Válida", async ({
